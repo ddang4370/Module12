@@ -26,5 +26,7 @@ cars
 
 ggplot(cars, aes(mpg,hp)) + geom_point(aes(color = mpg))
 ```
-#For starters, I love the layout of R Markdown, even though its just a document. I personally have experience with code using R Markdown, my intro to data mining class's assignments all used R Markdown format. The way its styled is clean and pleasing to the eye.
+#For starters, I love the layout of R Markdown, even though its just a document. 
+#I personally have experience with code using R Markdown, my intro to data mining class's assignments all used R Markdown format. 
+#The way its styled is clean and pleasing to the eye.
 
