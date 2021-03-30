@@ -1,0 +1,30 @@
+---
+title: "R Markdown"
+author: "Thomas Dang"
+date: "3/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+library(ggplot2)
+```
+
+## R Markdown
+
+
+```{r cars}
+cars <- mtcars
+
+cars
+
+```
+
+## Including Plots
+
+```{r pressure}
+
+ggplot(cars, aes(mpg,hp)) + geom_point(aes(color = mpg))
+```
+
+
